@@ -26,6 +26,15 @@
  *     -> vraca nam array sa elementima
  */
 
+let elements = document.getElementsByClassName("description")
+console.log(elements)
+elements[0].style.color = "red"
+elements[1].style.color = "green"
+
+let h1Title = document.getElementsByClassName("title")
+console.log(h1Title)
+h1Title[0].style.color = "blue"
+
 // ne bitnno da je da li je 1 ili 1000 sa tom klasu -  kada uradite getElementByClassName = uvek vraca array !
 
 
@@ -33,7 +42,11 @@
 /**
  * <div id="prdoducts"></div>
  */
+for (let element in elements) {
+	elements[element].textContent = element
+}
 
+console.log(elements.length)
 
 // vezba: napraviti petlju koja ce preci preko svih elemenata koja imaju klasu description
 

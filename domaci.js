@@ -3,6 +3,20 @@
  * <div id="products"></div>
  */
 
+let ads = [
+    {
+        name: "Skoda",
+        price: 9000,
+        image: "https://www.polovniautomobili.com/auto-oglasi/28217287/skoda-octavia-20-tdi-style"
+    },
+    {
+        name: "Skoda",
+        price: 9000,
+        image: "https://www.polovniautomobili.com/auto-oglasi/28781466/audi-a4-oprema"
+    },
+];
+
+let productsElement = document.getElementById("products")
 
 
 
